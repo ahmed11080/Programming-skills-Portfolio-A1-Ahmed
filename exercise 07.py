@@ -17,6 +17,6 @@ for x in range(50,9,-2):
         print(x)
 
         
-print("hunnid")
+print("hundred")
 for x in range(100,205,5):
         print(x)
