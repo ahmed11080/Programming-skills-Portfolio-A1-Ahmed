@@ -12,7 +12,7 @@ for x in range(29,50):
         x = x + 1
         print(x)
         
-print("dec to 50")
+print("dec to 50/2")
 for x in range(50,9,-2):
         print(x)
 
