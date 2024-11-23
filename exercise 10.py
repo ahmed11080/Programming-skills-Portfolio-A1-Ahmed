@@ -1,15 +1,11 @@
-def isOddOrEven(number):
+def OddorEven(number):
     if number % 2 == 0:
-        return "even"
+        print( "even" )
     else:
-        return "odd"
-
-def getUserInput():
-    return int(input("Enter a number: "))
-
+        print( "odd" )
+     
 def main():
-    number = getUserInput()
-    result = isOddOrEven(number)
-    print(f"The number is {result}.")
+    number = int(input("Enter a number: "))
+    OddorEven(number)
 
 main()
